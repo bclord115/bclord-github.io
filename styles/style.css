@@ -1,0 +1,28 @@
+body
+{
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-left: 14%;
+    /*background-color: gray;*/
+    width: 75%;
+}
+/* https://www.w3schools.com/howto/howto_js_sidenav.asp */
+.sidebar 
+{
+    height: 100%;
+    display: 100%;
+    width: 12%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 2%;
+}
+
+.sidebar button
+{
+    display: block;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+}
