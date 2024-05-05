@@ -8,13 +8,11 @@
         <button value="biosec" id="biosel" onclick="pager(event)">Biography</button>
         <button value="ressec" id="ressel" onclick="pager(event)">Resume</button>
         <button value="edusec" id="edusel" onclick="pager(event)">Education</button>
-        <!-- 
         <button value="skisec" id="skisel" onclick="pager(event)">Skills</button>
         <button value="prosec" id="prosel" onclick="pager(event)">Projects</button>
         <button value="reasec" id="reasel" onclick="pager(event)">Research</button>
         <button value="woesec" id="woesel" onclick="pager(event)">Work Experience</button>
         <button value="coisec" id="coisel" onclick="pager(event)">Contact Information</button>
-        !-->
     </article>
     </aside>    
 </head>
@@ -139,6 +137,109 @@
                 <ul>* Functional Programming (COMP-SCI 353)</ul>
             </article>
             <h6>* denotes in-progress</h6>
+    </section>
+    <section id="skisec" class="page hidden" hidden>
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+                <ul><li>A vast majority of my personal projects and research work is purely python.</li></ul>
+            <li>HTML/CSS/Javascript</li>
+            <li>SQL
+                <p></p>
+            </li>
+            <li>MongoDB</li>
+            <li>Database Management</li>
+                <ul><li>Management of large databases with millions of data points.</li></ul>
+            <li>Server Admininstration</li>
+                <ul>
+                    <li>Home Physical Server</li>
+                    <li>Multiple Online VPSs</li>    
+                </ul>    
+            <li>Circuit Board </li>
+            <ul>
+                <li>Design</li>
+                <li>Manufactuering(Ametuer)</li>
+                <ul>
+                    <li>Chemical Etching</li>
+                    <li>CNC Cutting</li>
+                </ul>
+            </ul>
+        </ul>
+    </section>
+    <section id="prosec" class="page hidden" hidden>
+        <div id="prodiv">
+            <h2>Projects</h2>
+            <a href="https://github.com/bclord115">School Github</a>
+            <a href="https://lordlabs.online/users/Loxi/projects">Personal GitLab</a>
+            <a href="https://github.com/xLordiz3">Personal Github</a>
+            <ul>
+                <li>
+                    <a href="https://github.com/xLordiz3/CustardsScheduleManager">Scheduling Manager</a>
+                    <p>My work still relies on a .pdf file of the schedule being emailed out every week. 
+                        This was an attempt to make the lives of the other managers easier.
+                        By scraping the schedule pdf and having easy access to the schedule, while also the ability to view and input shift changes.
+                        Written in Python Flask.
+                    </p>
+                </li>
+                <li>
+                    <a href="https://github.com/xLordiz3/PCBs">Circuit Board Projects</a>
+                    <p>This is a collection of various circuit boards that I have designed and assembled. Gerbers and Design Files</p>
+                </li>
+                <li>
+                    <a href="https://github.com/xLordiz3/arduino-projects">Arduino Projects</a>
+                    <p>An (outdated) collection of Arduino coding projects, including software for the previous circuit boards, in Arduino flavoured C++.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/xLordiz3/mmapi">MoneyManagement</a>
+                    <p>A dockerized cash management/database application written in Python Flask.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="reasec" class="page hidden" hidden>
+        <div id="readiv">
+            <h2>Research Experience</h2>
+            <p>
+                My current job is a researcher with M.I.D.E. at UMKC.
+            </p>
+            <p>
+                Projects that I am currently working on previously or currently are:
+            </p>
+                <li>
+                    Drone Control Software.
+                </li>
+                <li>
+                    Sharepoint Document Management systems
+                </li>
+                <li>
+                    Large Scale Database Management
+                </li>
+                <li>
+                    Large Language Models
+                </li>
+        </div>
+    </section>
+    <section id="woesec" class="page hidden" hidden>
+        <div id="woediv">
+            <h2>Work Experience</h2>
+            <br>
+            <br>
+            <p>
+                I have only recently, in 2023, started doing work within the world of computer science while working as an undergraduate research assistant at M.I.D.E. at UMKC.
+                This job has given me experience working within a more structured environment outside of personal projects for leisure and projects for school work.
+            </p>
+            <p>    
+                Beyond working within the field of programming and computer science, for almost 10 years i have worked at an icecream shop, while working as a shift manager for almost 7 years and at this point am the most senior employee.
+                I have learned a lot about customer service from my time working here, along with good experience in manageing employees.
+            </p>
+        </div>
+    </section>
+    <section id="coisec" class="page hidden" hidden>
+        <div id="coidiv">
+            <h2>Contact Information</h2>
+            Email Address: <a id="" href="mailto:lordblake###@gmail.com">lordblake###@gmail.com</a>
+            <p>Phone Number: (###) ###-####</p>
+        </div>
     </section>
 </body>
 <script src="static/scripts/pager.js"></script>
